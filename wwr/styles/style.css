@@ -30,7 +30,7 @@ body {
 
 
 footer{
-    background-color: #B5E48C;
+    background-color: #73a580;
     color: black;
 }
 
@@ -131,10 +131,13 @@ footer a:hover {
         color: White;
 }
 
-footer p {
+footer p, footer p a {
     font-size: 1em;
-}    
+    color: #3e363f;
+    
+}
 
 footer p a:hover {
     text-decoration: underline;
 } 
+
