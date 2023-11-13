@@ -481,12 +481,12 @@ main section img {
     grid-column-start: 7;
     grid-row-start: 6;
     line-height: 1em;
-    margin: auto;
+    /* margin: auto; */
     padding: 30px;
-    grid-column-start: 7;
+    /* grid-column-start: 7; */
     grid-column-end: 7;
     grid-row-start: 5;
-    box-shadow: 5px 5px 10px #6f7364;
+    /* box-shadow: 5px 5px 10px #6f7364; */
     z-index: 2;
     
 
@@ -614,11 +614,4 @@ main section img {
     border: 10px solid darkgreen;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
-    font-size: 27px;
-    
-}
-
-.top a:hover {
-    background-color: #168aad;
-    color: white;
 }
