@@ -384,7 +384,7 @@ main section img {
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     font-size: 2em;
     background-color:#3e363f;
-    /* background-color: #168aad; */
+  
 }
 
 .book-blog, .join-blog {
@@ -413,7 +413,7 @@ main section img {
 }
 
 .msg-blog {
-    /* background-color: #6f7364; */
+ 
     line-height: 1.5em;
 }
 
@@ -434,7 +434,7 @@ main section img {
 
 
 .top-inside-box-img {
-    /* grid-column: 11/14; */
+
     grid-column-start: 10;
     grid-row: 3/6; 
     z-index: 1;
@@ -466,8 +466,7 @@ main section img {
 
 }
 .book-now-blog-page {
-    /* background-color: white; */
-    /* background-color: white; */
+    
     line-height: 1em;
     margin: auto;
     padding: 30px;
@@ -475,11 +474,11 @@ main section img {
     grid-column-end: 7;
     grid-row-start: 5;
     text-align: center;
-    /* box-shadow: 5px 5px 10px #6f7364; */
+ 
     font-family: 'Roboto', 'Helvetica', 'sans-serif';
     transition: transform .5s;
     
-    /* box-shadow: 5px 5px 10px #6f7364; */
+   
     z-index: 2;
     font-family: 'Roboto', 'Helvetica', 'sans-serif';
 }
@@ -509,7 +508,7 @@ main section img {
     line-height: 1em;
     margin: auto;
     padding: 30px;
-    /* box-shadow: 5px 5px 10px #6f7364; */
+ 
     font-family: 'Roboto', 'Helvetica', 'sans-serif';
     line-height: 1.5em;
 }
@@ -554,7 +553,7 @@ main section img {
     font-family: 'Roboto', 'Helvetica', 'sans-serif';
     line-height: 1.5em;
     
-    /* grid-template-rows 100px 100px 100px 100px; */
+   
     
 }
 
@@ -565,7 +564,7 @@ main section img {
     padding: 35px;
     grid-column-start: 2;
    
-    /* margin: 50px 50px 50px 50px; */
+   
     border: #fcfbfb;
     font-size: xx-large;
     font-family: 'Roboto', 'Helvetica', 'sans-serif';
@@ -601,14 +600,11 @@ main section img {
 }
 
 .header-background {
-    /* grid-column-start: 2;
-    grid-column-end: 8; */
+ 
     grid-column-start: 1;
     grid-column-end: 7;
     margin-top: -100px;
-    /* grid-column: 2/9; */
-    /* z-index: -1;  */
-    /* width: 10000px     */
+   
     z-index: -1;
 }
 
@@ -618,8 +614,3 @@ main section img {
 
 }
 
-/* .book-now-blog-page {
-    border: 10px solid darkgreen;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
-} */
