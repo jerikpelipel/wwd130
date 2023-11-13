@@ -381,9 +381,10 @@ main section img {
 
 
 .blog-title {
-    font-family: 'Ravie', 'Helvetica', 'sans-serif';
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     font-size: 2em;
     background-color:#3e363f;
+    /* background-color: #168aad; */
 }
 
 .book-blog, .join-blog {
@@ -396,6 +397,7 @@ main section img {
     padding: 15px 30px;  
     border-radius: 50px;
     border: 10px solid darkgreen;
+    
 }
 
 .msg-blog p {
@@ -418,7 +420,10 @@ main section img {
     grid-template-columns: 100px 100px 100px 100px 100px 100px;
     grid-template-rows: 100px 100px 100px 100px 100px 100px 100px;
     background-color: #73a580;
+
 }
+
+
 
 .top-inside-box-img {
     /* grid-column: 11/14; */
@@ -426,7 +431,6 @@ main section img {
     grid-row: 3/6; 
     z-index: 1;
     width: 550px;  
-    z-index: 1;
     margin: 30px;
     border: 10px solid darkgreen;
     transition: transform .5s;
@@ -446,22 +450,26 @@ main section img {
     grid-column-end: 7;
     grid-row-start: 5;
     box-shadow: 5px 5px 10px #6f7364;
-    font-family: 'Roboto', 'Helvetica', 'sans-serif'  
+    font-family: 'Roboto', 'Helvetica', 'sans-serif' ;
+    border: 10px solid darkgreen;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    text-align: center;
 
 }
-.next-summer {
+.book-now-blog-page {
     /* background-color: white; */
-    grid-column-start: 7;
-    grid-row-start: 6;
-    line-height: 1.5em;
+    background-color: white;
+    line-height: 1em;
     margin: auto;
     padding: 30px;
     grid-column-start: 7;
     grid-column-end: 7;
     grid-row-start: 5;
     text-align: center;
-    text-decoration:underline;
-    transition: 5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    font-family: 'Roboto', 'Helvetica', 'sans-serif';
+    transition: transform .5s;
     
     /* box-shadow: 5px 5px 10px #6f7364; */
     z-index: 2;
@@ -480,10 +488,12 @@ main section img {
     grid-row-start: 5;
     box-shadow: 5px 5px 10px #6f7364;
     z-index: 2;
+    
+
 }
 
 .catch-phrase {
-    
+    background-color: ;
     color: white;
     grid-column-start: 2;
     grid-column-end: 8;
@@ -512,7 +522,6 @@ main section img {
     border: 10px solid darkgreen;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
-    transition: transform .5s;
     
 }
 
@@ -527,18 +536,6 @@ main section img {
     grid-row: 1;
     width: 610px;
 }
-
-
-/* .sheep-card {
-    width:100%;
-} */
-
-/* .blog-grid {
-    display: grid;
-    grid-template-columns: 100px 100px 100px 100px 100px 100px;
-    grid-template-rows: 100px 100px 100px 100px 100px 100px;
-    margin-top: 10px;
-} */
 
 
 
@@ -559,7 +556,7 @@ main section img {
     margin: auto;
     padding: 35px;
     grid-column-start: 2;
-    
+   
     /* margin: 50px 50px 50px 50px; */
     border: #fcfbfb;
     font-size: xx-large;
@@ -594,4 +591,34 @@ main section img {
 
 .scorpion-msg, .sheep-msg {
     line-height: 1.5em;
+}
+
+.header-background {
+    /* grid-column-start: 2;
+    grid-column-end: 8; */
+    grid-column-start: 1;
+    grid-column-end: 7;
+    margin-top: -100px;
+    /* grid-column: 2/9; */
+    /* z-index: -1;  */
+    /* width: 10000px     */
+    z-index: -1;
+}
+
+.header-blog-background {
+    width: 1600px;
+
+}
+
+.book-now-blog-page {
+    border: 10px solid darkgreen;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    font-size: 27px;
+    
+}
+
+.top a:hover {
+    background-color: #168aad;
+    color: white;
 }
