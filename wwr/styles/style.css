@@ -400,6 +400,14 @@ main section img {
     
 }
 
+.book-blog:hover {
+    background-color: #168aad;
+    color: white;
+    
+}
+
+
+
 .msg-blog p {
     font-size: .8em;
 }
@@ -442,7 +450,7 @@ main section img {
 
 
 .blog-title{
-    background-color: white;
+    background-color: skyblue;
     line-height: 1em;
     margin: auto;
     padding: 20px;
@@ -459,7 +467,7 @@ main section img {
 }
 .book-now-blog-page {
     /* background-color: white; */
-    background-color: white;
+    /* background-color: white; */
     line-height: 1em;
     margin: auto;
     padding: 30px;
@@ -467,7 +475,7 @@ main section img {
     grid-column-end: 7;
     grid-row-start: 5;
     text-align: center;
-    box-shadow: 5px 5px 10px #6f7364;
+    /* box-shadow: 5px 5px 10px #6f7364; */
     font-family: 'Roboto', 'Helvetica', 'sans-serif';
     transition: transform .5s;
     
@@ -481,19 +489,19 @@ main section img {
     grid-column-start: 7;
     grid-row-start: 6;
     line-height: 1em;
-    /* margin: auto; */
+    margin: auto;
     padding: 30px;
-    /* grid-column-start: 7; */
+    grid-column-start: 7;
     grid-column-end: 7;
     grid-row-start: 5;
-    /* box-shadow: 5px 5px 10px #6f7364; */
+    box-shadow: 5px 5px 10px #6f7364;
     z-index: 2;
     
 
 }
 
 .catch-phrase {
-    background-color: ;
+    
     color: white;
     grid-column-start: 2;
     grid-column-end: 8;
@@ -560,8 +568,7 @@ main section img {
     /* margin: 50px 50px 50px 50px; */
     border: #fcfbfb;
     font-size: xx-large;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+    font-family: 'Roboto', 'Helvetica', 'sans-serif';
 
 }
 
@@ -610,8 +617,8 @@ main section img {
 
 }
 
-.book-now-blog-page {
+/* .book-now-blog-page {
     border: 10px solid darkgreen;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
-}
+} */
