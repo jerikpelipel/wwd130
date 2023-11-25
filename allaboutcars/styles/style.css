@@ -123,11 +123,20 @@ nav a {
     grid-column: 2;
     margin-right: 50px;
 }
+
+.center-column img{
+    transition: transform 0.3s ease-in-out;
+}
+
+.center-column img:hover {
+    transform: scale(1.1)
+}
   
   
 .image img {
     width: 100%;
     height: auto; 
+    
 }
 
 .repair-card img,
@@ -139,6 +148,7 @@ nav a {
     box-shadow: 5px 5px 10px #6f7364;
     margin: 10px;
     padding: 5px;
+    transition: transform .5s;
 }
 
 
