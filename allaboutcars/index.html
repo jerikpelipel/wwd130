@@ -24,8 +24,17 @@
         <a href="">Site Plan</a>
         <a href="contactus.html">Contact Us</a>
     </nav>
-</header>
+</header>   
 
+<div id="dropdownComponent"></div>
+<script>
+  // Load the dropdown component into the specified div
+  fetch('components.html')
+    .then(response => response.text())
+    .then(html => {
+      document.getElementById('dropdownComponent').innerHTML = html;
+    });
+</script>
 
 
 
