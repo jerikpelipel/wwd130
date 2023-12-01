@@ -13,7 +13,7 @@ nav {
     
 }
 nav a:hover {
-    background-color: #168aad;
+    background-color: #c98d48;
     color: white;
     
 }
@@ -244,11 +244,12 @@ footer {
 .dropdown {
     position: relative;
     display: inline-block;
+    margin:auto;
 }
   
 
 .dropbtn {
-    background-color: #3498db;
+    background-color: rgb(201, 141, 72);
     color: white;
     padding: 12px;
     font-size: 16px;
