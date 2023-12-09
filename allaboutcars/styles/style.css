@@ -221,7 +221,7 @@ footer {
 }
 
 #content {
-    max-width: 1600px;
+    max-width: 2060px;
     margin: auto;
     padding: 10px;
 
@@ -280,6 +280,10 @@ footer {
 
 
 /* Auto Detailing */
+/* Auto Detailing */
+/* Auto Detailing */
+/* Auto Detailing */
+/* Auto Detailing */
 
 
 #auto-detailing-content {
@@ -305,8 +309,8 @@ footer {
     padding-left: 20px;
     padding-right: 10px;
     font-family: 'Helvetica Neue', 'Helvetica', 'sans-serif';
-    width: 120%; /* Adjust width as needed */
-    max-width: 900px; /* Set maximum width if required */
+    width: 120%;
+    max-width: 900px; 
     margin-right: auto;
     margin-left: auto;
     
@@ -370,4 +374,108 @@ footer {
     max-width: 50%;
     font-family: 'Helvetica Neue', 'Helvetica', 'sans-serif';
     line-height: 25px;
+}
+
+
+
+/* Subpage 2 - car repairs  */
+/* Subpage 2 - car repairs  */
+/* Subpage 2 - car repairs  */
+/* Subpage 2 - car repairs  */
+/* Subpage 2 - car repairs  */
+
+#car-repair-box {
+    position: relative;
+    display: inline-block; 
+}
+
+#car-msg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px; 
+    max-width: 80%; 
+}
+
+#auto1-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    margin-top: 10px;
+}
+
+#car-repairs {
+    position: relative;
+}
+
+#auto-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%; 
+    height: auto;
+    text-align: center;
+}
+
+/* car repair 2nd part */
+
+
+.car-repair-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, auto); 
+    gap: 20px;
+}
+
+.car-repair {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ccc; 
+    padding: 20px; 
+}
+
+.icon {
+    max-width: 100px; 
+    height: auto;
+}
+
+/* car repair 3rd part */
+
+
+.car-repair2:nth-child(odd) {
+    background-color: #c98d48;
+}
+
+
+.car-repair-msg:nth-child(even) {
+    background-color: #fcf7e3; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    padding: 20px;
+}
+
+
+.car-repair2, .car-repair-msg {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px; 
+}
+
+
+.car-repair2::after, .car-repair-msg::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+main.car-repair-grid {
+    width: calc(100% - 40px); /* Adjust the width accordingly considering the padding */
+    margin-top: 20px; /* Add some top margin */
 }
