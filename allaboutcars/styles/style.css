@@ -398,6 +398,8 @@ footer {
     background-color: rgba(255, 255, 255, 0.7);
     padding: 20px; 
     max-width: 80%; 
+    font-family: 'Helvetica Neue', 'Helvetica', 'sans-serif';
+
 }
 
 #auto1-img {
@@ -436,6 +438,8 @@ footer {
     text-align: center;
     border: 1px solid #ccc; 
     padding: 20px; 
+    font-family: 'Helvetica Neue', 'Helvetica', 'sans-serif';
+
 }
 
 .icon {
@@ -459,6 +463,8 @@ footer {
     align-items: center;
     text-align: center; 
     padding: 20px;
+    font-family: 'Helvetica Neue', 'Helvetica', 'sans-serif';
+
 }
 
 
@@ -466,6 +472,8 @@ footer {
     text-align: center;
     border: 1px solid #ccc;
     padding: 20px; 
+    font-family: 'Helvetica Neue', 'Helvetica', 'sans-serif';
+
 }
 
 
@@ -473,9 +481,11 @@ footer {
     content: '';
     display: table;
     clear: both;
+    font-family: 'Helvetica Neue', 'Helvetica', 'sans-serif';
+
 }
 
 main.car-repair-grid {
-    width: calc(100% - 40px); /* Adjust the width accordingly considering the padding */
-    margin-top: 20px; /* Add some top margin */
+    width: calc(100% - 40px); 
+    margin-top: 20px; 
 }
